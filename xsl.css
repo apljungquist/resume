@@ -1,0 +1,159 @@
+html {
+	--theme-color: #3e82f7; 
+	--primary-font-color: #000;
+	--primary-font-family: "Adobe Garamond Pro";
+	--primary-font-weight: 400;
+	--primary-text-transform: none;
+	--secondary-font-color: #000;
+	--secondary-font-family: "helvetica neue";
+	--secondary-font-weight: 400;
+}
+
+body * {
+/*	outline: 1px solid #F88;*/
+/*	padding: 10px;*/
+/*	margin: 10px;*/
+}
+
+
+/* flow */
+
+.page {
+	margin: auto;
+	height: 29.7cm;
+	width: 21cm;
+	padding:2.54cm 2.44cm 2.54cm 2.44cm ;
+}
+
+section, .experience, ul {
+	overflow: auto;
+}
+
+.experience > h3 {
+	clear: left;
+	float: left;
+}
+
+.experience > .dates {
+	clear: right;
+	float: right;
+}
+
+.experience > .location {
+	 clear: both;
+	 float: left;
+}
+
+.experience > ul {
+	clear: both;
+	float: left;
+}
+
+
+/* alignment and spacing */
+
+ul, li {
+	margin: 1px 0 1px 0;
+}
+
+.name, .contact {
+	text-align: center;
+}
+
+h1, h2, h3, .dates {
+	margin: 0.4em 0em 0em 0em;
+}
+
+.dates {
+	font-weight: bold;
+}
+
+section > * {
+	padding-left: 8px;
+	padding-right: 14px;
+}
+
+ul {
+	padding-left: 1.8em;
+}
+
+/* fonts etc */
+
+h1 {
+	font-size: 1.4em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3, .dates {
+	font-size: 1em;
+	margin-top: 0;
+}
+
+.location {
+	font-style: italic;
+}
+
+.page {
+	font-family: var(--secondary-font-family);
+	font-size: 18px;
+}
+
+h1, h2 {
+	font-family: var(--primary-font-family);
+	font-weight: var(--primary-font-weight);
+}
+
+
+/* *** *** customizations *** *** */
+
+/* *** <h2> themed background *** */
+/*h2 {
+	padding-top: 0.2em;
+	background-color: var(--theme-color);
+	border-radius: 0 0.6em 0.6em 0;
+}*/
+
+/* *** <h2> themed line *** */
+h2 {
+	display: table;
+	white-space: nowrap;
+}
+
+h2:before, h2:after {
+	border-top: 1px solid var(--theme-color);
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+}
+
+h2:before {
+	right: 0.1em;
+	width: 2%;
+}
+
+h2:after {
+	left: 0.2em;
+	width: 98%;
+}
+
+/* *** <li> custom icon *** */
+/*
+ul {
+	list-style: none;
+}
+
+li:before {
+	content: '';
+	display: inline-block;
+	height: 0.5em;
+	width: 0.5em;
+	margin-left: -1.0em;
+	margin-right: 0.5em;
+	margin-bottom: 0.2em;
+	background-image: url("");
+	background-size: cover;
+}*/
