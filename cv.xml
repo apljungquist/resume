@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cv.xsl"?>
+<resume>
+	<firstname>Anders-Petter</firstname>
+	<lastname> Ljungquist</lastname>
+	<address>EH3</address>
+	<telephone>+44 7719 563964</telephone>
+	<email>ap@ljunquist.eu</email>
+	<section>
+		<title>Education</title>
+		<experience>
+			<title>Master of Informatics</title>
+			<start>Sep 2011</start>
+			<end>Jun 2016</end>
+			<organisation>University of Edinburgh</organisation>
+			<location>Edinburgh, UK</location>
+			<highlight>2:1 with "outstanding" honours project</highlight>
+			<highlight>Cleaned, annotated and prepared data;
+					Compared encodings, classifiers and metrics;
+					Implemented deep generative model;
+					Optimized neural networks;
+					Researched state of the art in unfamiliar domain;
+					- all for speech enhancement.</highlight>
+			<highlight>Recognized digits using convolutional neural networks built with numpy.</highlight>
+			<highlight>Detected and tracked single object in 3D and multiple objects in 2D.</highlight>
+			<highlight>Parallelized algorithm and implemented leader election with message passing.</highlight>
+			<highlight>Designed relational schema, parsed XML and combined SQL with full text search.</highlight>
+			<highlight>Discovered, exploited and patched contrived vulnerabilities in binary and web app.</highlight>
+			<highlight>Used map reduce to clean text data, count bigrams and join tables.</highlight>
+		</experience>
+		<experience>
+			<title>International Baccalaureate Diploma Programme</title>
+			<start>Aug 2008</start>
+			<end>Jun 2011</end>
+			<organisation>Malmö Borgarskola</organisation>
+			<location>Malmö, Sweden</location>
+			<highlight>Final grade 37/45 among the top 15% worldwide (545+ UCAS points).</highlight>
+			<highlight>Four subjects at higher level, including <list>
+				<item>English B</item>
+				<item>Physics</item>
+				<item>Mathematics</item>
+				<item>Economics</item>
+				</list>
+			</highlight>
+		</experience>
+	</section>
+	<section>
+		<title>Work Experience</title>
+		<experience>
+			<title>Summer Intern</title>
+			<start>Jun 2015</start>
+			<end>Aug 2015</end>
+			<organisation>Axis</organisation>
+			<location>Lund, Sweden</location>
+			<highlight>Built stereo vision system with open source libraries.</highlight>
+			<highlight>Devised experiments, created data sets and analysed results.</highlight>
+			<highlight>Evaluated applicability of new technology to present and future products.</highlight>
+		</experience>
+		<experience>
+			<title>Software Developer</title>
+			<start>Jun 2014</start>
+			<end>Aug 2014</end>
+			<organisation>Ericsson</organisation>
+			<location>Karlskrona, Sweden</location>
+			<highlight>Worked in agile team, learning from more experienced developers and mentoring less experienced colleagues.</highlight>
+			<highlight>Dealt with unfamiliar technologies and proprietary systems.</highlight>
+		</experience>
+		<experience>
+			<title>Sales Assistant</title>
+			<start>Jun 2011</start>
+			<end>Jun 2015</end>
+			<organisation>Peter’s Yard</organisation>
+			<location>Edinburgh, UK</location>
+			<highlight>Responsibilities included <list>
+					<item>cash handling</item>
+					<item>sales reporting</item>
+					<item>payrolls.</item>
+				</list>
+			</highlight>
+		</experience>
+	</section>
+	<section>
+		<title>Skills &amp; Technologies</title>
+		<highlight>Comfortable with <list>
+					<item>Python</item>
+					<item>Unix</item>
+					<item>Bash</item>
+					<item>MySQL</item>
+					<item>Git</item>
+					<item>Excel</item>
+				</list>
+			</highlight>
+		<highlight>Familiar with <list>
+					<item>Tensorflow</item>
+					<item>C++</item>
+					<item>Java</item>
+					<item>Hadoop</item>
+					<item>Matlab</item>
+					<item>Haskell</item>
+					<item>C</item>
+					<item>MPI</item>
+					<item>XML</item>
+					<item>HTML</item>
+					<item>CSS</item>
+					<item>JS</item>
+					<item>PHP</item>
+				</list>
+			</highlight>
+	</section>
+	<section>
+		<title>Other Interests</title>
+		<highlight><list>
+				<item>Rock Climbing</item>
+				<item>Hiking</item>
+				<item>Photography</item>
+			</list>
+		</highlight>
+	</section>
+</resume>
