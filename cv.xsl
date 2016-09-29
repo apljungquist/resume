@@ -25,11 +25,6 @@
 								<div class="experience">
 									<ul>
 										<xsl:apply-templates select="highlight"/>
-										<!-- <xsl:for-each select="highlight">
-											<li>
-												<xsl:value-of select="."/>
-											</li>
-										</xsl:for-each> -->
 									</ul>
 								</div>
 							</xsl:if>
@@ -41,12 +36,7 @@
 									<div class="dates"><xsl:value-of select="start"/> » <xsl:value-of select="end"/></div>
 									<div class="location"><xsl:value-of select="organisation"/>, <xsl:value-of select="location"/></div>
 									<ul>
-										<xsl:apply-templates/>
-										<!-- <xsl:for-each select="highlight">
-											<li>
-												<xsl:value-of select="."/>
-											</li>
-										</xsl:for-each> -->
+										<xsl:apply-templates select="highlight"/>
 									</ul>
 								</div>
 							</xsl:for-each>
