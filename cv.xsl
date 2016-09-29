@@ -58,12 +58,17 @@
 	</xsl:template>
 	<xsl:template match="highlight">
 		<li xmlns="http://www.w3.org/1999/xhtml">
-			<xsl:value-of select="text()"/>
-			<xsl:if test="list">
-				<xsl:value-of select="list/item[position() = 1]"/>
-				<xsl:for-each select="list/item[position() > 1 and position() &lt; last()]" >, <xsl:value-of select="."/></xsl:for-each> &amp;
-				<xsl:value-of select="list/item[position() = last()]"/>
-			</xsl:if>
+			<xsl:choose>
+				<xsl:when test="list">
+					<xsl:value-of select="text()"/>
+					<xsl:value-of select="list/item[position() = 1]"/>
+					<xsl:for-each select="list/item[position() > 1 and position() &lt; last()]" >, <xsl:value-of select="."/></xsl:for-each> &amp;
+					<xsl:value-of select="list/item[position() = last()]"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="."/>
+				</xsl:otherwise>
+			</xsl:choose>
 		</li>
 	</xsl:template>
 </xsl:stylesheet>
