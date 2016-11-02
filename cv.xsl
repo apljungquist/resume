@@ -60,7 +60,7 @@
 					<xsl:value-of select="text()"/>
 					<xsl:value-of select="list/item[position() = 1]"/>
 					<xsl:for-each select="list/item[position() > 1 and position() &lt; last()]" >, <xsl:value-of select="."/></xsl:for-each> &amp;
-					<xsl:value-of select="list/item[position() = last()]"/>
+					<xsl:value-of select="list/item[position() = last()]"/>.
 				</xsl:when>
 				<xsl:otherwise>
 					<xsl:value-of select="."/>
