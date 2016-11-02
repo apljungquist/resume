@@ -108,6 +108,11 @@ h3, .dates {
 	font-size: 18px;
 }
 
+a:link, a:visited {
+	color: var(--secondary-font-color);
+	text-decoration: none;
+}
+
 h1, h2 {
 	font-family: var(--primary-font-family);
 	font-weight: var(--primary-font-weight);
