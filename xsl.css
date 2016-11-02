@@ -18,11 +18,18 @@ body * {
 
 /* flow */
 
-.page {
-	margin: auto;
-	height: 29.7cm;
-	width: 21cm;
-	padding:2.54cm 2.44cm 2.54cm 2.44cm ;
+@media all and (min-width: 980px){
+	.page {
+		padding:2.54cm 2.44cm 2.54cm 2.44cm ;
+	}
+}
+
+@media all and (min-width: 800px){
+	.page {
+		margin: auto;
+		height: 29.7cm;
+		width: 21cm;
+	}
 }
 
 section, .experience, ul {
@@ -80,15 +87,15 @@ ul {
 /* fonts etc */
 
 h1 {
-	font-size: 1.4em;
+	font-size: 24px;
 }
 
 h2 {
-	font-size: 1.4em;
+	font-size: 24px;
 }
 
 h3, .dates {
-	font-size: 1em;
+	font-size: 18px;
 	margin-top: 0;
 }
 
@@ -123,11 +130,11 @@ h2 {
 }
 
 h2:before, h2:after {
-	border-top: 1px solid var(--theme-color);
+	border-top: 2px solid var(--theme-color);
 	content: '';
 	display: table-cell;
 	position: relative;
-	top: 0.5em;
+	top: 0.6em;
 }
 
 h2:before {

@@ -3,6 +3,7 @@
 	<xsl:template match="/resume">
 		<html xmlns="http://www.w3.org/1999/xhtml">
 			<head>
+				<meta name="HandheldFriendly" content="true"/>
 				<link type="text/css" rel="stylesheet" charset="UTF-8" href="xsl.css"/>
 			</head>
 			<body>
