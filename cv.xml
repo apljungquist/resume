@@ -14,8 +14,9 @@
 			<end>Jun 2016</end>
 			<organisation>University of Edinburgh</organisation>
 			<location>Edinburgh, UK</location>
-			<highlight>2:1 with "outstanding" honours project</highlight>
-			<highlight>Cleaned, annotated and prepared data;
+			<highlight>2:1 with "outstanding" honours project.</highlight>
+			<highlight>
+					Cleaned, annotated and prepared data;
 					Compared encodings, classifiers and metrics;
 					Implemented deep generative model;
 					Optimized neural networks;
@@ -74,7 +75,7 @@
 			<highlight>Responsibilities included <list>
 					<item>cash handling</item>
 					<item>sales reporting</item>
-					<item>payrolls.</item>
+					<item>payrolls</item>
 				</list>
 			</highlight>
 		</experience>
