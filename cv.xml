@@ -92,8 +92,12 @@
 				</list>
 			</highlight>
 		<highlight>Familiar with <list>
+					<item>SciPy</item>
 					<item>Tensorflow</item>
+					<item>Matplotlib</item>
 					<item>C++</item>
+					<item>OpenCV</item>
+					<item>Kaldi</item>
 					<item>Java</item>
 					<item>Hadoop</item>
 					<item>Matlab</item>
@@ -105,6 +109,7 @@
 					<item>CSS</item>
 					<item>JS</item>
 					<item>PHP</item>
+					<item>AWS</item>
 				</list>
 			</highlight>
 	</section>
