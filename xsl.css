@@ -1,5 +1,5 @@
 html {
-	--theme-color: #3e82f7; 
+	--theme-color: skyblue; 
 	--primary-font-color: #000;
 	--primary-font-family: "Adobe Garamond Pro";
 	--primary-font-weight: 400;
@@ -63,12 +63,12 @@ ul, li {
 	margin: 1px 0 1px 0;
 }
 
-.name, .contact {
+.name, .contact, footer {
 	text-align: center;
 }
 
-h1, h2, h3, .dates {
-	margin: 0.4em 0em 0em 0em;
+h1, h2, h3, .dates, footer {
+	margin: 8px 0 0 0;
 }
 
 .dates {
@@ -106,6 +106,12 @@ h3, .dates {
 .page {
 	font-family: var(--secondary-font-family);
 	font-size: 18px;
+}
+
+footer {
+	font-size: 12px;
+	font-family: monospace;
+	color: silver;
 }
 
 a:link, a:visited {

@@ -49,6 +49,9 @@
 							</xsl:for-each>
 						</section>
 					</xsl:for-each>
+					<footer>
+						<xsl:value-of select="document('.git/head-info.xml')/head/hash"/>
+					</footer>
 				</div>
 			</body>
 		</html>
