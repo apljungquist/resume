@@ -104,6 +104,7 @@ h3, .dates {
 }
 
 .page {
+	color: var(--secondary-font-color);
 	font-family: var(--secondary-font-family);
 	font-size: 18px;
 }
@@ -120,6 +121,7 @@ a:link, a:visited {
 }
 
 h1, h2 {
+	color: var(--primary-font-color);
 	font-family: var(--primary-font-family);
 	font-weight: var(--primary-font-weight);
 }
