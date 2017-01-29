@@ -48,6 +48,13 @@
 	<section>
 		<title>Work Experience</title>
 		<experience>
+			<title>Software Developer</title>
+			<start>Jan 2017</start>
+			<end>present</end>
+			<organisation>Axis</organisation>
+			<location>Lund, Sweden</location>
+		</experience>
+		<experience>
 			<title>Summer Intern</title>
 			<start>Jun 2015</start>
 			<end>Aug 2015</end>
