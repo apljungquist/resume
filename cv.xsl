@@ -14,10 +14,6 @@
 							<xsl:value-of select="lastname"/>
 						</h1>
 						<div class="contact">
-							<a href="tel:{telephone}">
-							  <xsl:value-of select="telephone"/>
-							</a>
-							●
 							<a href="mailto:{email}">
 							  <xsl:value-of select="email"/>
 							</a>
